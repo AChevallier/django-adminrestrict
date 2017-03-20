@@ -1,6 +1,6 @@
 # Restrict admin django cms
 
-django-adminrestrict-CDSP enables you to block access for django 1.8 or more (work with django CMS) unless requests come from specific IP addresses. 
+django-adminrestrict-CDSP enables you to block access for django 1.8 or more (work with django CMS) unless requests come from specific IP addresses.
 
 #Installation
 
@@ -28,5 +28,5 @@ Next, install the ``FailedLoginMiddleware`` middleware::
     )
 
 Add in your settings.py :
-    If you are using Django CMS, you can use 'CMS_INTERNAL_IPS = [...]'
-    If you are using only Django, you have to use 'ALLOWED_ADMIN_IPS  = [...]'
+    If you are using Django CMS, you can use `CMS_INTERNAL_IPS = [...]`
+    If you are using only Django, you have to use `ALLOWED_ADMIN_IPS  = [...]`
