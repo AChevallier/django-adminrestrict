@@ -2,11 +2,11 @@
 
 django-adminrestrict-CDSP enables you to block access for django 1.8 or more (work with django CMS) unless requests come from specific IP addresses.
 
-#Installation
+## Installation
 
 `pip install django-adminrestrict-CDSP`
 
-#Configuration
+## Configuration
 
 Add the apps to ``settings.py``::
 
@@ -17,7 +17,7 @@ Add the apps to ``settings.py``::
         'django.contrib.sessions',
         'django.contrib.sites',
         ...
-        'restrictadmindjango',
+        'django-adminrestrict-CDSP',
         ...
     )
 

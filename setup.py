@@ -4,12 +4,12 @@
 import os
 from setuptools import setup, find_packages
 
-VERSION = '1.0.3-CDSP'
+VERSION = '1.0.3'
 
 setup(
     name='django-adminrestrict-CDSP',
     version=VERSION,
-    description="Block .",
+    description="Django admin restriction",
     long_description=open("README.md").read(),
     keywords='authentication, django, security',
     author='Alexandre Chevallier (fork) Robert Romano (original author)',
